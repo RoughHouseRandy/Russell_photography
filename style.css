@@ -1,0 +1,37 @@
+body {
+background-color:rgb(214, 228, 255);
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+a{
+    color:rgb(255, 251, 246);
+    
+}
+.banner{
+
+    width:2560px;
+    height:1200px;
+background-image: url(gondola.png);
+background-size:cover;
+background-position: center;
+background-repeat: no-repeat;
+
+}
+
+.banner h1{
+
+    color:rgb(255, 251, 246);
+    font-size:60px;
+    position:relative;
+    left:400px;
+    top: 50px
+}
+
+.banner ul{
+    font-size:50px;
+    position:relative;
+    left:200px;
+    top: 100px;
+    list-style:none;
+}
