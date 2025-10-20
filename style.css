@@ -1,37 +1,97 @@
 body {
+margin:0;
+padding:0;
 background-color:rgb(214, 228, 255);
-font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
+font-family:"Space Mono", monospace, sans-serif;
+max-width:  none;
+min-width: 760px;
+overflow-x:hidden;
 }
 
-a{
+h1{
+    font-family:"Rock Salt", cursive;
+    font-weight:400;
+}
+
+a {
     color:rgb(255, 251, 246);
+    text-decoration:none;
+    
     
 }
-.banner{
 
-    width:2560px;
-    height:1200px;
+
+.banner{
+ margin:0;
+ padding-top: 30px;   
 background-image: url(gondola.png);
 background-size:cover;
-background-position: center;
+background-position:center;
 background-repeat: no-repeat;
+height:100vh;
+width:100%
+
 
 }
 
 .banner h1{
-
+    text-align:center;
     color:rgb(255, 251, 246);
     font-size:60px;
-    position:relative;
-    left:400px;
-    top: 50px
+    text-align:left;
+    position:relative;   
+    top:5px;
+    
+    margin-bottom:-30px;
+    padding-left:25px;
+
 }
 
 .banner ul{
     font-size:50px;
     position:relative;
+    margin-top:-20px;
     left:200px;
-    top: 100px;
+    top: 2px;
     list-style:none;
 }
+.banner li{
+    display:inline;
+}
+
+p {
+    text-align:left;
+    padding-left:10px;
+}
+
+.skyimgs {
+    padding-top:50vh;
+    padding-bottom:50vh;
+    position:relative;
+    margin-left:-32px;
+
+}
+
+.portraits {
+    padding-top:50vh;
+    padding-bottom:50vh;
+    position:relative;
+    height:1400px;
+    margin-top: 50vh;
+    margin-bottom: 50vh; 
+    display:inline;
+    left:300px;
+}
+.menu a{
+    color:black;
+}
+.menu ul{
+    text-decoration:none;
+    list-style:none;
+
+    
+}
+.menu li{
+    display:inline;
+}
+
